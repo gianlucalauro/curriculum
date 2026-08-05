@@ -1,0 +1,165 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: "Gianluca Lauro"
+  headline: "Full Stack Developer"
+  location: "Naples, Italy"
+  email: "gianluca.lauro01@gmail.com"
+  phone: "+393277845374"
+  website: "https://gianlucalauro.com"
+  social_networks:
+    - network: "LinkedIn"
+      username: "gianluca-lauro-31bb70220"
+    - network: "GitHub"
+      username: "gianlucalauro"
+  sections:
+    summary:
+      - "Developer with a strong and early passion for technology,
+        which grew by experimenting with networking, hardware, and the
+        open-source ecosystem. My familiarity with Linux operating systems
+        and the open-source philosophy guided my first steps in programming,
+        which subsequently evolved into a solid professional career built on targeted
+        studies and hands-on experience in the field. My approach to work is
+        driven by methodological curiosity: I constantly invest time in continuous
+        professional development and studying emerging technologies, ready to
+        integrate them effectively into future projects."
+    experience:
+      - company: "Tecno Group"
+        position: "Full Stack Developer"
+        start_date: "2020-05"
+        end_date: "present"
+        location: "Naples, Italy"
+        summary: "Throughout my experience at Tecno, I developed a 360-degree
+          view of the software lifecycle, building high autonomy and strong
+          problem-solving skills."
+        highlights:
+          - Took full responsibility for the entire development pipeline as
+            the main maintainer of a core company project.
+          - Developed web and mobile applications for internal company management.
+          - Managed server infrastructure, databases, and CI/CD pipelines.
+          - Contributed to team growth by taking charge of onboarding and
+            training junior developers.
+    projects:
+      - name: '[KontrolON](https://kontrolon.eu/)'
+        start_date: 2020-11
+        end_date: present
+        summary: A digital platform that integrates real-time energy and production data, converting complex operational metrics into actionable insights for strategic decision-making
+        highlights:
+        - Automated deployment workflows by implementing robust CI/CD pipelines with GitHub Actions and GitLab CI
+        - Introduced Apache Kafka message broker to enable scalable, real-time asynchronous data streaming
+        - Containerized and orchestrated project infrastructure using Docker Swarm for high availability and cluster management
+      - name: '[FuelSystem](https://www.controllogasoliocisterne.com/)'
+        start_date: 2024-06
+        end_date: 2025-10
+        summary: A comprehensive digital solution for real-time diesel monitoring and corporate fuel tank management
+        highlights:
+        - Spearheaded cross-platform mobile app development for both iOS and Android using React Native
+        - Delivered a unified, native-like user experience while streamlining code reuse across mobile platforms
+      - name: '[TicketingTecno](https://play.google.com/store/apps/details?id=com.tecno.tickets_app&hl=it)'
+        start_date: 2024-11
+        end_date: present
+        summary: Cross-Platform Internal Operations & Issue Management System (Web, iOS, Android)
+        highlights:
+        - Integrated push and chat alerts via Microsoft Teams, Gotify, and custom webhooks to ensure real-time status updates across teams
+        - Configured automated ticket creation triggered by server-down detection systems to minimize downtime response times
+        - Engineered deep integration with GitHub API, automating issue creation from incoming tickets and ensuring full two-way status and comment sync between TicketingTecno and GitHub repositories
+    education:
+      - institution: "Università Guglielmo Marconi"
+        area: "Computer Engineering"
+        degree: "BSc"
+        start_date: "2026-04"
+        end_date: "present"
+        location: "Italy"
+        summary: "Academic path undertaken with the goal of consolidating the theoretical
+          and methodological foundations of computer science, balancing studies
+          with parallel professional work."
+      - institution: "I.T.I. Augusto Righi"
+        area: "Computer Science"
+        degree: "High School Diploma"
+        start_date: "2018-09"
+        end_date: "2020-05"
+        location: "Naples, Italy"
+        highlights:
+          - "Specialization in programming logic, networking (Cisco
+            CCNA), and embedded systems."
+          - "Work-Based Learning: CMS development (Joomla and
+            WordPress) and Front End development with Angular."
+    skills:
+      - label: "Backend & API"
+        details: "Java (Spring Boot), PHP (Laravel), Apache Kafka"
+      - label: "Frontend & Mobile"
+        details: "JavaScript, React, React Native, Flutter (iOS & Android)"
+      - label: "Database & Analytics"
+        details: "MySQL, Elasticsearch, InfluxDB, Telegraf"
+      - label: "DevOps, CI/CD & Cloud"
+        details: "Docker, Docker Swarm, GitHub Actions, GitLab CI, VPS Linux, Git"
+      - label: "Architecture"
+        details: "Microservices, Event-Driven Architecture"
+      - label: "IDE"
+        details: "IntelliJ IDEA, PyCharm, PHPStorm, WebStorm, Android Studio"
+      - label: "Tools"
+        details: "Portainer, Grafana, Postman, KafkaUI, Elasticvue, Chronograf"
+    certifications:
+      - name: "[AI and Machine Learning](https://drive.google.com/file/d/1m6cIPrOMRGQ_0tdfty7KP4Zgw9wY-KuZ/view)"
+        location: "Virvelle"
+        date: "2025-05"
+        summary: "Comprehensive training in artificial intelligence fundamentals and machine learning algorithms."
+      - name: "[AI Prompt Engineering](https://drive.google.com/file/d/1hgQRj1a2f4Va4sn8vGHgqJtcLH6bYsok/view)"
+        location: "Virvelle"
+        date: "2025-05"
+        summary: "Techniques and strategies for optimizing prompt design and LLM interactions."
+      - name: "[React & React Native](https://drive.google.com/file/d/1uSWDMVM1Yage5XT7wQSmIPm96YGuhWt0/view)"
+        location: "Begear"
+        date: "2022-11"
+        summary: "Advanced web and cross-platform mobile application development using React and React Native."
+      - name: "[Cybersecurity Essentials](https://drive.google.com/file/d/1xt5F20SasUqaLZGwyNI5WjSjGP9jQbll/view)"
+        location: "Cisco"
+        date: "2020-05"
+        summary: "Core concepts of security controls, threat management, and network vulnerability mitigation."
+      - name: "[CCNA 1](https://drive.google.com/file/d/1Uuy-dviPG15K8tUTXX5l_0Cfr7tts-nn/view)"
+        location: "Cisco"
+        date: "2020-01"
+        summary: "Foundations of networking architecture, IP routing, switching, and network protocols."
+      - name: "[Introduction to Cybersecurity](https://drive.google.com/file/d/1cSxwuICkvUqXidyYxxgyZKJRSE2QlrI5/view)"
+        location: "Cisco"
+        date: "2019-12"
+        summary: "Fundamental principles of digital privacy, cyber threats, and defensive strategies."
+      - name: "[PCAP: Programming Essentials in Python](https://drive.google.com/file/d/1QMqg9ZIfF8PJ4enMyE451aYRwCyLEXwU/view)"
+        location: "Python Institute"
+        date: "2019-11"
+        summary: "Core Python programming techniques, object-oriented design, and data processing."
+      - name: "[Java Foundations](https://drive.google.com/file/d/1Q1eIkX3Eo9OEvJKgbRvvXm-Lkn7On1Yr/view)"
+        location: "Oracle"
+        date: "2019-09"
+        summary: "Fundamental Java syntax, object-oriented concepts, and core class libraries."
+    languages:
+      - bullet: "Italian (Native)"
+      - bullet: "English (Professional Working Proficiency)"
+    interests:
+      - bullet: "Photography"
+      - bullet: "Cinema"
+      - bullet: "Music"
+      - bullet: "Finance"
+  photo: https://nextcloud.gianlucalauro.com/apps/files_sharing/publicpreview/wciL9CpanZrrDWe?file=/&fileId=307108&x=1920&y=1080&a=true&etag=88311f0693b8e5bed8205e3c6c45d7af
+
+design:
+  theme: classic
+locale:
+  language: english
+settings:
+  current_date: today
+  render_command:
+    output_folder: rendercv_output
+    design:
+    locale:
+    typst_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.md
+    html_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.html
+    png_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: true
+  bold_keywords: []
+  pdf_title: NAME - CV
