@@ -13,15 +13,7 @@ cv:
       username: "gianlucalauro"
   sections:
     summary:
-      - "Developer with a strong and early passion for technology,
-        which grew by experimenting with networking, hardware, and the
-        open-source ecosystem. My familiarity with Linux operating systems
-        and the open-source philosophy guided my first steps in programming,
-        which subsequently evolved into a solid professional career built on targeted
-        studies and hands-on experience in the field. My approach to work is
-        driven by methodological curiosity: I constantly invest time in continuous
-        professional development and studying emerging technologies, ready to
-        integrate them effectively into future projects."
+      - "Passionate Full Stack Developer with 6+ years of hands-on experience, entering the tech industry professionally before finishing high school. Characterized by deep curiosity across all areas of IT, high autonomy, and an end-to-end problem-solving approach."
     experience:
       - company: "Tecno Group"
         position: "Full Stack Developer"
@@ -74,7 +66,7 @@ cv:
           with parallel professional work."
       - institution: "I.T.I. Augusto Righi"
         area: "Computer Science"
-        degree: "High School Diploma"
+        degree: "HSD"
         start_date: "2018-09"
         end_date: "2020-05"
         location: "Naples, Italy"
@@ -84,20 +76,16 @@ cv:
           - "Work-Based Learning: CMS development (Joomla and
             WordPress) and Front End development with Angular."
     skills:
-      - label: "Backend & API"
-        details: "Java (Spring Boot), PHP (Laravel), Apache Kafka"
-      - label: "Frontend & Mobile"
-        details: "JavaScript, React, React Native, Flutter (iOS & Android)"
-      - label: "Database & Analytics"
-        details: "MySQL, Elasticsearch, InfluxDB, Telegraf"
-      - label: "DevOps, CI/CD & Cloud"
-        details: "Docker, Docker Swarm, GitHub Actions, GitLab CI, VPS Linux, Git"
-      - label: "Architecture"
-        details: "Microservices, Event-Driven Architecture"
-      - label: "IDE"
-        details: "IntelliJ IDEA, PyCharm, PHPStorm, WebStorm, Android Studio"
-      - label: "Tools"
-        details: "Portainer, Grafana, Postman, KafkaUI, Elasticvue, Chronograf"
+    - label: "Backend & Streaming"
+      details: "Java (Spring Boot), PHP (Laravel), Apache Kafka, REST APIs"
+    - label: "Frontend & Mobile"
+      details: "JavaScript (ES6+), React, React Native, Flutter"
+    - label: "Databases & Storage"
+      details: "MySQL, Elasticsearch, InfluxDB"
+    - label: "DevOps & Cloud"
+      details: "Docker, Docker Swarm, GitHub Actions, GitLab CI, Linux VPS, Portainer"
+    - label: "Monitoring & Observability"
+      details: "Grafana, Telegraf, Chronograf, Elasticvue"
     certifications:
       - name: "[AI and Machine Learning](https://drive.google.com/file/d/1m6cIPrOMRGQ_0tdfty7KP4Zgw9wY-KuZ/view)"
         location: "Virvelle"
@@ -134,11 +122,6 @@ cv:
     languages:
       - bullet: "Italian (Native)"
       - bullet: "English (Professional Working Proficiency)"
-    interests:
-      - bullet: "[Photography](https://photography.gianlucalauro.com)"
-      - bullet: "Cinema"
-      - bullet: "Music"
-      - bullet: "Finance"
 
 design:
   theme: classic
