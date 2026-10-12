@@ -2,7 +2,7 @@
 cv:
   name: "Gianluca Lauro"
   headline: "Full Stack Developer"
-  location: "Naples, Italy"
+  location: "Napoli, Italia"
   email: "gianluca.lauro01@gmail.com"
   phone: "+393277845374"
   website: "https://gianlucalauro.com"
@@ -12,121 +12,114 @@ cv:
     - network: "GitHub"
       username: "gianlucalauro"
   sections:
-    summary:
-      - "Passionate Full Stack Developer with 6+ years of hands-on experience, entering the tech industry professionally before finishing high school. Characterized by deep curiosity across all areas of IT, high autonomy, and an end-to-end problem-solving approach."
-    experience:
+    sommario:
+      - "Sviluppatore Full Stack con oltre 6 anni di esperienza sul campo, entrato nel mondo del lavoro prima ancora di concludere le scuole superiori. Curioso per natura e con una costante voglia di crescere, lavoro con forte autonomia e con un approccio pragmatico orientato a risolvere i problemi dall'inizio alla fine."
+    esperienza:
       - company: "Tecno Group"
         position: "Full Stack Developer"
         start_date: "2020-05"
         end_date: "present"
-        location: "Naples, Italy"
-        summary: "Throughout my experience at Tecno, I developed a 360-degree
-          view of the software lifecycle, building high autonomy and strong
-          problem-solving skills."
+        location: "Napoli, Italia"
+        summary: "In Tecno ho sviluppato una visione completa dell'intero ciclo di vita del software, imparando a gestire progetti complessi in totale autonomia e con spiccate capacità di problem solving pratico."
         highlights:
-          - Took full responsibility for the entire development pipeline as
-            the main maintainer of a core company project.
-          - Developed web and mobile applications for internal company management.
-          - Managed server infrastructure, databases, and CI/CD pipelines.
-          - Contributed to team growth by taking charge of onboarding and
-            training junior developers.
-    projects:
+          - "Punto di riferimento e maintainer principale per uno dei progetti chiave dell'azienda, con la responsabilità dell'intera pipeline di sviluppo."
+          - "Sviluppo di applicazioni web e mobile dedicate ai processi e alla gestione interna aziendale."
+          - "Gestione diretta dell'infrastruttura server."
+          - "Supporto alla crescita del team, seguendo l'onboarding e la formazione tecnica di una figura junior."
+    progetti:
       - name: '[KontrolON](https://kontrolon.eu/)'
         start_date: 2020-11
         end_date: present
-        summary: A digital platform that integrates real-time energy and production data, converting complex operational metrics into actionable insights for strategic decision-making
+        summary: "Piattaforma digitale che raccoglie in tempo reale dati energetici e di produzione, aggregandone e fruinendone tramite dashboard e report schedulati."
         highlights:
-        - Automated deployment workflows by implementing robust CI/CD pipelines with GitHub Actions and GitLab CI
-        - Introduced Apache Kafka message broker to enable scalable, real-time asynchronous data streaming
-        - Containerized and orchestrated project infrastructure using Docker Swarm for high availability and cluster management
+          - "Automatizzazione dei processi di rilascio tramite pipeline CI/CD con GitHub Actions e GitLab CI."
+          - "Integrazione del message broker Apache Kafka per supportare uno streaming asincrono di dati in tempo reale, altamente scalabile."
+          - "Containerizzazione e orchestrazione dell'infrastruttura con Docker Swarm per garantire alta disponibilità e facilità di gestione del cluster."
+          - "Scrittura di test unitari con Junit e Mockito"
       - name: '[FuelSystem](https://www.controllogasoliocisterne.com/)'
         start_date: 2024-06
         end_date: 2025-10
-        summary: A comprehensive digital solution for real-time diesel monitoring and corporate fuel tank management
+        summary: "Soluzione digitale completa per il monitoraggio in tempo reale del carburante e la gestione dei serbatoi aziendali."
         highlights:
-        - Spearheaded cross-platform mobile app development for both iOS and Android using React Native
-        - Delivered a unified, native-like user experience while streamlining code reuse across mobile platforms
+          - "Sviluppo dell'applicazione mobile cross-platform per iOS e Android realizzata con React Native."
       - name: '[TicketingTecno](https://play.google.com/store/apps/details?id=com.tecno.tickets_app&hl=it)'
         start_date: 2024-11
         end_date: present
-        summary: Cross-Platform Internal Operations & Issue Management System (Web, iOS, Android)
+        summary: "Sistema multipiattaforma (Web, iOS, Android) per la gestione delle operazioni interne e il tracciamento dei ticket."
         highlights:
-        - Integrated push and chat alerts via Microsoft Teams, Gotify, and custom webhooks to ensure real-time status updates across teams
-        - Configured automated ticket creation triggered by server-down detection systems to minimize downtime response times
-        - Engineered deep integration with GitHub API, automating issue creation from incoming tickets and ensuring full two-way status and comment sync between TicketingTecno and GitHub repositories
-    education:
-      - institution: "Università Guglielmo Marconi"
-        area: "Computer Engineering"
-        degree: "BSc"
+          - "Creazione automatica dei ticket in caso di allarmi e rilevamento di server down, abbattendo i tempi di risposta ai disservizi."
+          - "Integrazione avanzata con le API di GitHub per creare automaticamente issue dai ticket e mantenere sincronizzati stati e commenti in modo bidirezionale."
+    istruzione:
+      - institution: "Università Telematica Guglielmo Marconi"
+        area: "Ingegneria Informatica"
+        degree: "Laurea Triennale"
         start_date: "2026-04"
         end_date: "present"
-        location: "Italy"
-        summary: "Academic path undertaken with the goal of consolidating the theoretical
-          and methodological foundations of computer science, balancing studies
-          with parallel professional work."
+        location: "Italia"
+        summary: "Percorso accademico intrapreso per consolidare le basi teoriche e metodologiche dell'informatica, conciliando gli studi con l'attività lavorativa a tempo pieno."
       - institution: "I.T.I. Augusto Righi"
-        area: "Computer Science"
-        degree: "HSD"
+        area: "Informatica"
+        degree: "Diploma"
         start_date: "2018-09"
         end_date: "2020-05"
-        location: "Naples, Italy"
+        location: "Napoli, Italia"
         highlights:
-          - "Specialization in programming logic, networking (Cisco
-            CCNA), and embedded systems."
-          - "Work-Based Learning: CMS development (Joomla and
-            WordPress) and Front End development with Angular."
-    skills:
-    - label: "Backend & Streaming"
-      details: "Java (Spring Boot), PHP (Laravel), Apache Kafka, REST APIs"
-    - label: "Frontend & Mobile"
-      details: "JavaScript (ES6+), React, React Native, Flutter"
-    - label: "Databases & Storage"
-      details: "MySQL, Elasticsearch, InfluxDB"
-    - label: "DevOps & Cloud"
-      details: "Docker, Docker Swarm, GitHub Actions, GitLab CI, Linux VPS, Portainer"
-    - label: "Monitoring & Observability"
-      details: "Grafana, Telegraf, Chronograf, Elasticvue"
-    certifications:
+          - "Percorso di studi focalizzato su logica di programmazione, reti (Cisco CCNA) e sistemi embedded."
+          - "Esperienza di alternanza scuola-lavoro (PCTO): sviluppo di siti e CMS (Joomla, WordPress) e primi progetti front-end con Angular."
+    competenze:
+      - label: "Backend & Streaming"
+        details: "Java (Spring Boot), PHP (Laravel), Apache Kafka, REST APIs"
+      - label: "Frontend & Mobile"
+        details: "JavaScript (ES6+), React, React Native, Flutter"
+      - label: "Database & Storage"
+        details: "MySQL, Elasticsearch, InfluxDB"
+      - label: "DevOps & Cloud"
+        details: "Docker, Docker Swarm, GitHub Actions, GitLab CI, Linux VPS, Portainer"
+      - label: "Monitoraggio & Osservabilità"
+        details: "Grafana, Telegraf, Chronograf, Elasticvue"
+    certificazioni:
       - name: "[AI and Machine Learning](https://drive.google.com/file/d/1m6cIPrOMRGQ_0tdfty7KP4Zgw9wY-KuZ/view)"
         location: "Virvelle"
         date: "2025-05"
-        summary: "Comprehensive training in artificial intelligence fundamentals and machine learning algorithms."
+        summary: "Formazione approfondita sui fondamenti dell'intelligenza artificiale e sui principali algoritmi di machine learning."
       - name: "[AI Prompt Engineering](https://drive.google.com/file/d/1hgQRj1a2f4Va4sn8vGHgqJtcLH6bYsok/view)"
         location: "Virvelle"
         date: "2025-05"
-        summary: "Techniques and strategies for optimizing prompt design and LLM interactions."
+        summary: "Tecniche e strategie pratiche per la progettazione di prompt efficaci e l'interazione avanzata con gli LLM."
       - name: "[React & React Native](https://drive.google.com/file/d/1uSWDMVM1Yage5XT7wQSmIPm96YGuhWt0/view)"
         location: "Begear"
         date: "2022-11"
-        summary: "Advanced web and cross-platform mobile application development using React and React Native."
+        summary: "Sviluppo avanzato di applicazioni web e app mobile multipiattaforma con React e React Native."
       - name: "[Cybersecurity Essentials](https://drive.google.com/file/d/1xt5F20SasUqaLZGwyNI5WjSjGP9jQbll/view)"
         location: "Cisco"
         date: "2020-05"
-        summary: "Core concepts of security controls, threat management, and network vulnerability mitigation."
+        summary: "Principi essenziali di sicurezza informatica, gestione delle minacce e protezione delle reti aziendali."
       - name: "[CCNA 1](https://drive.google.com/file/d/1Uuy-dviPG15K8tUTXX5l_0Cfr7tts-nn/view)"
         location: "Cisco"
         date: "2020-01"
-        summary: "Foundations of networking architecture, IP routing, switching, and network protocols."
+        summary: "Fondamenti di architettura di rete, routing IP, switching e protocolli di comunicazione."
       - name: "[Introduction to Cybersecurity](https://drive.google.com/file/d/1cSxwuICkvUqXidyYxxgyZKJRSE2QlrI5/view)"
         location: "Cisco"
         date: "2019-12"
-        summary: "Fundamental principles of digital privacy, cyber threats, and defensive strategies."
+        summary: "Concetti chiave di riservatezza dei dati, minacce informatiche e strategie di difesa."
       - name: "[PCAP: Programming Essentials in Python](https://drive.google.com/file/d/1QMqg9ZIfF8PJ4enMyE451aYRwCyLEXwU/view)"
         location: "Python Institute"
         date: "2019-11"
-        summary: "Core Python programming techniques, object-oriented design, and data processing."
+        summary: "Fondamenti del linguaggio Python, programmazione orientata agli oggetti e manipolazione dati."
       - name: "[Java Foundations](https://drive.google.com/file/d/1Q1eIkX3Eo9OEvJKgbRvvXm-Lkn7On1Yr/view)"
         location: "Oracle"
         date: "2019-09"
-        summary: "Fundamental Java syntax, object-oriented concepts, and core class libraries."
-    languages:
-      - bullet: "Italian (Native)"
-      - bullet: "English (Professional Working Proficiency)"
+        summary: "Sintassi fondamentale di Java, principi di programmazione OOP e librerie standard."
+    lingue:
+      - bullet: "Italiano (Madrelingua)"
+      - bullet: "Inglese (Professionale / Fluente)"
 
 design:
   theme: classic
+  entries:
+    degree_width: 3.0cm
 locale:
-  language: english
+  language: italian
 settings:
   current_date: today
   render_command:
